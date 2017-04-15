@@ -12,14 +12,21 @@ Common CSS Style
 h1, h2, h3, h4, h5, h6 {
     color: #242B54;
 }
-.section-heading h1 {
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1 {
     position: relative;
     display: inline-block;
     font-size: 40px;
     border-bottom: 1px solid #60C926;
     margin-bottom: 60px;
 }
-.section-heading h1:before {
+h1:before {
     content: "\f28e";
     font-family: FontAwesome;
     position: absolute;
@@ -28,6 +35,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     color: #60C926;
 }
+.common-section {
+    padding: 70px 0;
+}
 /*
 ==================
 Header Area Start
@@ -35,7 +45,7 @@ Header Area Start
 */
 .navbar-default {
 	border: none;
-	background-color: #242B55;
+	background-color: rgba(0, 0, 0, .5);
 }
 .navbar {
 	border-radius: 0;
@@ -91,13 +101,20 @@ Header Area Start
     font-size: 14px;
     color: #60C926;
 }
+.bg-img {
+    padding: 600px;
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
 /*
 ==================
 Service Area Start
 ==================
 */
 .service {
-    padding: 70px 0;
     text-align: center;
     background-color: #fff;
 }
@@ -142,4 +159,28 @@ Service Area Start
     color: #60C926;
     font-size: 20px;
     margin-top: 20px;
+}
+.service-head {
+    margin: 80px 0;
+}
+.service-left p, ul li {
+    text-align: left;
+    font-size: 16px;
+    color: #242B54;
+}
+.service-left p {
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.service-left ul li {
+    font-weight: bold;
+    line-height: 35px;
+}
+.service-left ul li:before {
+    content: "\f14a";
+    font-family: FontAwesome;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: #60C926;
 }
