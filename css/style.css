@@ -184,3 +184,70 @@ Service Area Start
     margin-right: 20px;
     color: #60C926;
 }
+/*
+==================
+Process Area Start
+==================
+*/
+.all-process {
+    background-color: #E9ECFB;
+    padding-bottom: 0;
+}
+.process {
+    text-align: center;
+}
+.process-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #242B55;
+    margin-left: 30%;
+}
+.process-circle:hover {
+    background-color: #60C926;
+}
+.process-circle i {
+    margin-top: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+.process h4 {
+    margin-top: 25px;
+    margin-left: 2%;
+}
+.process-line {
+    position: absolute; 
+    top: 153px;
+    left: 227px;
+    right: -227px;
+    bottom: -55px; 
+}
+.line {
+    width: 50%;
+    border: 1px solid #DBE1EF;
+
+}
+.process-line i {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 150px;
+    bottom: 13px;
+    font-size: 20px;
+}
+.process-des {
+    background-color: #E1E7F5;
+    padding: 60px 0;
+    margin-top: 60px;
+    font-weight: 400;
+}
+.process-des p {
+    font-size: 16px;
+    color: #242B54;
+    line-height: 24px;
+}
+.process-des ol li {
+    font-size: 16px;
+    color: #242B54;
+    line-height: 36px;
+}
