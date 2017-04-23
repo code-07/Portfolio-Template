@@ -102,9 +102,8 @@ Header Area Start
     color: #60C926;
 }
 .bg-img {
-    width: 100%;
-    padding: 600px;
-    background-image: url(../images/home.jpg);
+    padding: 400px 0;
+    background-image: url(../images/HD-Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
@@ -184,10 +183,6 @@ Service Area Start
     margin-left: 30px;
     margin-right: 20px;
     color: #60C926;
-}
-.service-right img {
-    width: 100%;
-    height: auto;
 }
 /*
 ==================
@@ -273,4 +268,54 @@ Counter Up Section Start
 }
 .single-counter .counter {
     font-size: 50px;
+}
+/*
+==================
+Experience Section Start
+==================
+*/
+.owl-theme {
+    margin-top: 50px;
+}
+.owl-theme:hover .owl-nav {
+    display: block;
+}
+.owl-theme .owl-nav [class*='owl-'] {
+    position: absolute;`
+    color: #333;
+    font-size: 50px;
+    top: 35%;
+    background-color: rgba(1, 1, 1, .5);
+    padding: 0 10px;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    
+}
+.owl-theme .owl-nav {
+    margin-top: 0px;
+    display: none;
+}
+.owl-theme .owl-nav i {
+    color: red;
+}
+.owl-nav .owl-prev {
+    left: 0px;
+}
+.owl-nav .owl-next {
+    right: 0px;
+}
+.owl-dots{
+    position: absolute;
+    top: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: red
+}
+.carousel-right h2 {
+    margin-bottom: 40px;
+}
+.carousel-right p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
 }
